@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AzureDevOpsQuizApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47250153c0d73967accb25be5710b09c83262839")]
 [assembly: System.Reflection.AssemblyProductAttribute("AzureDevOpsQuizApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AzureDevOpsQuizApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
