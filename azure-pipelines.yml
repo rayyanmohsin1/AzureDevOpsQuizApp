@@ -1,38 +1,39 @@
 trigger:
-  - main 
+  - main  # Trigger pipeline on changes to the main branch
 
 pool:
-  name: 'Default'  
+  name: 'Default'  # Self-hosted agent pool
 
 steps:
-  # Step 1: Checkout the code from GitHub
+  # Step 1: Checkout the code from your GitHub repository
   - task: Checkout@1
-    displayName: "Checkout Code from GitHub"
+    displayName: 'Checkout Code from GitHub'
     inputs:
       clean: true
 
-  # Step 2: Install .NET SDK (optional if installed locally)
+  # Step 2: Install .NET SDK (if required for your project)
   - task: UseDotNet@2
-    displayName: "Install .NET Core SDK"
+    displayName: 'Install .NET Core SDK'
     inputs:
       packageType: sdk
-      version: '8.x'
+      version: '8.x'  # Use the version suitable for your project
 
-  # Step 3: Restore project dependencies
+  # Step 3: Restore dependencies
   - script: dotnet restore
-    displayName: "Restore Dependencies"
+    displayName: 'Restore Dependencies'
 
-  # Step 4: Build the project
+  # Step 4: Build the application
   - script: dotnet build --configuration Release
-    displayName: "Build Project"
+    displayName: 'Build Application'
 
   # Step 5: Publish build artifacts
   - script: dotnet publish --configuration Release --output $(Build.ArtifactStagingDirectory)
-    displayName: "Publish Artifacts"
+    displayName: 'Publish Build Artifacts'
 
-  # Step 6: Upload artifacts
+  # Step 6: Save the artifacts
   - task: PublishBuildArtifacts@1
-    displayName: "Upload Artifacts"
+    displayName: 'Upload Artifacts'
     inputs:
       PathtoPublish: '$(Build.ArtifactStagingDirectory)'
-      ArtifactName: 'AzureDevOpsQuizApp'
+      ArtifactName: 'WebAppArtifact'
+      publishLocation: 'Container'
