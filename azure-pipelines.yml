@@ -1,5 +1,5 @@
 trigger:
-  - main  # Trigger pipeline on changes to the main branch
+  - main 
 
 pool:
   name: 'Default'  # Self-hosted agent pool
