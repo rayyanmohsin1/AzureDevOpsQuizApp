@@ -1,0 +1,14 @@
+E:\RayyanMohsin\AzureDevOpsQuizApp\bin\Debug\net8.0\AzureDevOpsQuizApp.exe
+E:\RayyanMohsin\AzureDevOpsQuizApp\bin\Debug\net8.0\AzureDevOpsQuizApp.deps.json
+E:\RayyanMohsin\AzureDevOpsQuizApp\bin\Debug\net8.0\AzureDevOpsQuizApp.runtimeconfig.json
+E:\RayyanMohsin\AzureDevOpsQuizApp\bin\Debug\net8.0\AzureDevOpsQuizApp.dll
+E:\RayyanMohsin\AzureDevOpsQuizApp\bin\Debug\net8.0\AzureDevOpsQuizApp.pdb
+E:\RayyanMohsin\AzureDevOpsQuizApp\obj\Debug\net8.0\AzureDevOpsQuizApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\RayyanMohsin\AzureDevOpsQuizApp\obj\Debug\net8.0\AzureDevOpsQuizApp.AssemblyInfoInputs.cache
+E:\RayyanMohsin\AzureDevOpsQuizApp\obj\Debug\net8.0\AzureDevOpsQuizApp.AssemblyInfo.cs
+E:\RayyanMohsin\AzureDevOpsQuizApp\obj\Debug\net8.0\AzureDevOpsQuizApp.csproj.CoreCompileInputs.cache
+E:\RayyanMohsin\AzureDevOpsQuizApp\obj\Debug\net8.0\AzureDevOpsQuizApp.dll
+E:\RayyanMohsin\AzureDevOpsQuizApp\obj\Debug\net8.0\refint\AzureDevOpsQuizApp.dll
+E:\RayyanMohsin\AzureDevOpsQuizApp\obj\Debug\net8.0\AzureDevOpsQuizApp.pdb
+E:\RayyanMohsin\AzureDevOpsQuizApp\obj\Debug\net8.0\AzureDevOpsQuizApp.genruntimeconfig.cache
+E:\RayyanMohsin\AzureDevOpsQuizApp\obj\Debug\net8.0\ref\AzureDevOpsQuizApp.dll
