@@ -1,8 +1,8 @@
 trigger:
-  - main 
+- main
 
 pool:
-  name: 'Default'  # Self-hosted agent pool
+  name: 'Default'
 
 steps:
   # Step 1: Checkout the code from your GitHub repository
